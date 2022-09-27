@@ -5,6 +5,8 @@
 min = int(input("Введите минимальное значение: "))
 max = int(input("Введите максимальное значение: "))
 
+import copy
+
 origin_list = list(range(min, max+1))
 shuffle_list = copy.copy(origin_list)
 
